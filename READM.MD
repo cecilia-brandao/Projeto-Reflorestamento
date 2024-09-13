@@ -1,12 +1,13 @@
 # PROJETO REFLORESTAMENTO
 ![projetoreflorestamento](./projeto%20reflorestamento.jpg)
+
 Este projeto é uma aplicação de interface gráfica desenvolvida com tkinter que simula o processo de reflorestamento no Nordeste do Brasil. O usuário pode selecionar uma sub-região e uma espécie para ser plantada, visualizando o tempo de reflorestamento necessário para aquela árvore naquela sub-região.
 ## Índice
 - <a href= "#-Funcionalidades"> Funcionalidades do projeto </a>
 - <a href= "#-Tecnologias"> Tecnologias utilizadas </a>
 - <a href= "#-Executar"> Como executar o programa? </a>
 ## Funcionalidades do Projeto
-- **Visualizar Tempo de Reflorestamento**: Mostra o tempo necessário para a recuperação de uma espécie selecionada em uma região específica.
+- **Visualizar Tempo de Reflorestamento**: Mostra o tempo necessário para a recuperação de uma espécie selecionada em uma sub-região específica.
 ## Tecnologias Utilizadas
 - `tkinter` (normalmente já incluído com Python)
 ## Como Executar o Programa:
