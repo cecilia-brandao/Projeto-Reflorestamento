@@ -32,7 +32,7 @@ tempo_reflorestamento_ZDM = {'Pau-Brasil':'15 Anos', 'Jatobá':'15 Anos', 'Suxup
 def tempo_reflorestamento(especie_tempo, especie_regiao):
     selecionar = especie_regiao.curselection()
     if selecionar:
-        especie = especie_regiao.get(selecionar [0] ) # adicionou o 0
+        especie = especie_regiao.get(selecionar [0] ) 
         tempo = especie_tempo.get(especie, "Tempo desconhecido")
         messagebox.showinfo("Tempo de Reflorestamento", f"A espécie  {especie}, leva {tempo} anos para se recuperar na sub-região escolhida.")
     else:
